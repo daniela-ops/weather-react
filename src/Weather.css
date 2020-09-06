@@ -1,0 +1,56 @@
+.Weather {
+  padding: 30px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+}
+
+.Weather .todays-temperature {
+  text-align: center;
+  margin: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Weather .todays-temperature strong {
+  font-size: 70px;
+  line-height: 1;
+  text-emphasis: none;
+  font-weight: lighter;
+  color: black;
+}
+
+.Weather .todays-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.Weather .weather-forecast img {
+  display: block;
+  margin: 0 auto;
+  height: 48px;
+  width: 48px;
+}
+
+.Weather .todays-temperature .active {
+  color: black;
+  cursor: default;
+}
+
+.Weather .todays-temperature .active:hover {
+  text-decoration: none;
+}
+
+.Weather .description {
+  color: black;
+  padding: 0px 62px;
+}
+
+.Weather .icon {
+  margin: 0 auto;
+}
+
+.Weather .weekly-temp {
+  margin-top: 20px;
+  text-align: center;
+}
